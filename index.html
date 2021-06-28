@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best University</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width:768px)" href="css/mobile.css " />
+    <link rel="stylesheet " href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet " href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css " integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p " crossorigin="anonymous " />
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js "></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/v4-shims.js "></script> -->
+    <!-- <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css "> -->
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="index.html"><img src="./Images/logo.png" /></a>
+                <div class="nav-links" id="NavvLinks">
+                    <i class="fa fa-times-circle fa-2x" onclick="HideMenu();"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div id="kk">
+                    <i class="fa fa-bars fa-2x" onclick="ShowMenu(); "></i>
+                </div>
+            </nav>
+        </div>
+        <div class="header-content">
+            <h1>World's Biggest University</h1>
+            <p>
+                Making Website is so easy nowaday, you just have to lean HTML,CSS,<br />JS and you are good to go
+            </p>
+            <a class="btn" href="#">Visit us to know more</a>
+        </div>
+
+    </section>
+    <script>
+        var check = document.getElementById("NavvLinks");
+        var hanmburger = document.getElementById("kk");
+        var falto = document.getElementById("kk");
+
+        function ShowMenu() {
+            check.style.right = "0";
+            hanmburger.style.display = "none";
+        }
+
+        function HideMenu() {
+            check.style.right = "-200px";
+            hanmburger.style.display = "block";
+
+        }
+    </script>
+
+    <!-- OUR COURSES -->
+
+    <section id="courses" class="py-1">
+        <div class="container ">
+            <div class="course-outline ">
+                <h1>Courses we Offer</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ea culpa, aperiam fugiat sit voluptatem.
+                </p>
+            </div>
+
+            <div class="Showcase-course ">
+                <div class="main-course ">
+                    <h2>Intermediate</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolore quam aliquid incidunt neque assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="main-course ">
+                    <h2>Degree</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolore quam aliquid incidunt neque assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="main-course ">
+                    <h2>Post Graduation</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolore quam aliquid incidunt neque assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- CAMPUS -->
+    <section id="campus" class="py-1">
+        <div class="campus-outline">
+            <h1>Our Global Campus</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, architecto?</p>
+        </div>
+
+        <div class="showcase-campus ">
+            <div class="campus-col ">
+                <img src="./Images/london.png ">
+                <div class="layer ">
+                    <h3>London</h3>
+                </div>
+            </div>
+            <div class="campus-col ">
+                <img src="./Images/newyork.png ">
+                <div class="layer ">
+                    <h3>Newyork</h3>
+                </div>
+            </div>
+            <div class="campus-col ">
+                <img src="./Images/washington.png ">
+                <div class="layer ">
+                    <h3>Washington</h3>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FACILITIES -->
+    <section id="facilities" class="py-1">
+        <div class="facility-outline">
+            <h1>Our Facilities</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum!</p>
+        </div>
+
+        <div class="showcase-facility ">
+            <div class="facility-col ">
+                <img src="./Images/library.png ">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="facility-col ">
+                <img src="./Images/basketball.png ">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="facility-col ">
+                <img src="./Images/cafeteria.png ">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testinomial -->
+    <section id="testinomial" class="py-1">
+        <h1 class="text-check">What our Student Says</h1>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <div class="showcase-testinomial ">
+            <div class="testinomial-col ">
+                <img src="./Images/user1.jpg ">
+                <div>
+                    <p class="testinomial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus, est debitis earum facere magnam ut fuga et expedita tenetur obcaecati fugiat, provident amet deserunt, illum officia explicabo voluptatum eaque.</p>
+                    <h3>Christine Barkley</h3>
+                    <div class="check ">
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star-o "></i>
+                    </div>
+                </div>
+
+            </div>
+            <div class="testinomial-col ">
+                <img src="./Images/user2.jpg ">
+                <div>
+                    <p class="testinomial-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sapiente delectus, est debitis earum facere magnam ut fuga et expedita tenetur obcaecati fugiat, provident amet deserunt, illum officia explicabo voluptatum eaque.</p>
+                    <h3>David Byer</h3>
+                    <div class="check ">
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <i class="fa fa-star "></i>
+                        <!-- <i class="fa-solid fa-star-half-stroke "></i> -->
+                        <i class="fa fa-star-half-o "></i>
+                    </div>
+
+                    <!-- <h2>SAAD</h2> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section id="cta">
+        <h2>Enroll for our various online course <br>Anywhere from the world</h2>
+        <a class="btn" href="# ">CONTACT US</a>
+    </section>
+
+
+    <!-- FOOTER -->
+    <section id="footer" class="py-top">
+        <h1>About Us</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti, <br>eaque porro neque ducimus nostrum rerum eius. Amet cum cupiditate eum quidem esse.</p>
+        <div class="icon">
+
+            <div class="icon-btn"><i class="fa fa-facebook"></i></div>
+            <div class="icon-btn"><i class="fa fa-instagram"></i></div>
+            <div class="icon-btn"><i class="fa fa-twitter"></i></div>
+            <div class="icon-btn"><i class="fa fa-linkedin"></i></div>
+
+        </div>
+        <div class="ending">
+            <p>Copyrights &copy;2021 Made with <i class="fa fa-heart"></i>by Saad Rehman</p>
+        </div>
+
+    </section>
+    <!-- JS FOR MENU TOGGLE -->
+
+</body>
+
+</html>

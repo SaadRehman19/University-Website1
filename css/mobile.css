@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav {
+    display: block;
+}
+
+.header-content h1 {
+    font-size: 1rem;
+}
+
+.header-content p {
+    font-size: 18px;
+    margin-top: 0.1rem;
+}
+
+.main-nav ul {
+    font-size: 15px;
+    display: block !important;
+}
+
+.main-nav ul li {
+    display: block;
+    padding: 1rem;
+    text-align: center;
+}
+
+.nav-links {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(199, 79, 10, 0.333);
+    text-align: center;
+    z-index: 2;
+    height: 100vh;
+    width: 200px;
+    transition: 1s;
+}
+
+.main-nav .fa {
+    display: block;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 150px;
+    font-size: 22px;
+}
+
+.main-nav #kk {
+    /* font-size: 40px; */
+    margin-left: 43rem !important;
+    margin-top: -3rem;
+}
+
+.header-content .btn {
+    padding: 0.4rem 0.2rem;
+}
+
+
+/* COURSES */
+
+.Showcase-course {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: 2rem;
+}
+
+
+/* CAMPUS */
+
+.showcase-campus {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Facilties */
+
+.showcase-facility {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+
+/* Testinomial */
+
+.showcase-testinomial {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.testinomial-col {
+    border-radius: 0.2rem;
+    background: #fff3f3;
+    text-align: left;
+}
+
+.testinomial-col img {
+    margin-top: 1rem;
+    /* padding-top: 1rem; */
+    margin-left: 5px;
+    margin-right: 10px;
+    /* width: 10px */
+}
+
+
+/* call to action */
+
+#cta h2 {
+    font-size: 1.25rem;
+}
+
+@media only screen and (max-width:500px) {
+    .main-nav #kk {
+        margin-left: 18rem !important;
+        margin-top: -3rem;
+    }
+    .showcase-blog {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* About us */
+
+#showcase-header {
+    padding: 0.5rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0.4rem 0rem;
+}
+
+
+/* Contact us */
+
+.showcase-contact {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact-Form input,
+.contact-Form textarea {
+    width: 80%;
+}

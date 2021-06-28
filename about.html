@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best University</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width:768px)" href="css/mobile.css " />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet " href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css " integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p " crossorigin="anonymous " />
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js "></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/v4-shims.js "></script> -->
+    <!-- <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css "> -->
+</head>
+
+<body>
+    <section id="about-header" class="py-1">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="index.html"><img src="./Images/logo.png" /></a>
+                <div class="nav-links" id="NavvLinks">
+                    <i class="fa fa-times-circle fa-2x" onclick="HideMenu();"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div id="kk">
+                    <i class="fa fa-bars fa-2x" onclick="ShowMenu();"></i>
+                </div>
+            </nav>
+        </div>
+        <div>
+            <h1>About Us</h1>
+        </div>
+
+    </section>
+    <section id="showcase-header">
+        <div class="about-col">
+            <h2>We are the World's Largest University</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quisquam atque accusantium molestiae! Consequatur blanditiis animi mollitia ab amet dignissimos accusantium consectetur. Minima, doloremque deleniti nemo itaque, error maiores, voluptatibus
+                odio quaerat aliquam eius dolorem suscipit dolor optio explicabo! Minima?Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim, voluptate exercitationem aspernatur veritatis nostrum corrupti neque esse illum at corporis!
+            </p>
+            <a href="#" class="btn btn-about">Explore Now</a>
+        </div>
+        <div class="about-col">
+            <img src="Images/about.jpg" />
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <section id="footer" class="py-top">
+        <h1>About Us</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti, <br />eaque porro neque ducimus nostrum rerum eius. Amet cum cupiditate eum quidem esse.
+        </p>
+        <div class="icon">
+            <div class="icon-btn"><i class="fa fa-facebook"></i></div>
+            <div class="icon-btn"><i class="fa fa-instagram"></i></div>
+            <div class="icon-btn"><i class="fa fa-twitter"></i></div>
+            <div class="icon-btn"><i class="fa fa-linkedin"></i></div>
+        </div>
+        <div class="ending">
+            <p>Copyrights &copy;2021 Made with <i class="fa fa-heart"></i>by Saad Rehman</p>
+        </div>
+    </section>
+    <!-- JS FOR MENU TOGGLE -->
+    <script>
+        var check = document.getElementById("NavvLinks");
+        var hanmburger = document.getElementById("kk");
+        var falto = document.getElementById("kk");
+
+        function ShowMenu() {
+            check.style.right = "0";
+            hanmburger.style.display = "none";
+        }
+
+        function HideMenu() {
+            check.style.right = "-200px";
+            hanmburger.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>

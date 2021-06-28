@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Best University</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;1,200;1,500;1,600&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" media="(max-width:768px)" href="css/mobile.css " />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+    <!-- <link rel="stylesheet " href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css " integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p " crossorigin="anonymous " />
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js "></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/v4-shims.js "></script> -->
+    <!-- <link rel="stylesheet " href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.3/css/fontawesome.min.css "> -->
+</head>
+
+<body>
+    <section id="about-header" class="py-1">
+        <div class="container">
+            <nav class="main-nav">
+                <a href="index.html"><img src="./Images/logo.png" /></a>
+                <div class="nav-links" id="NavvLinks">
+                    <i class="fa fa-times-circle fa-2x" onclick="HideMenu();"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSE</a></li>
+                        <li><a href="blog.html">BLOG</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <div id="kk">
+                    <i class="fa fa-bars fa-2x" onclick="ShowMenu();"></i>
+                </div>
+            </nav>
+        </div>
+        <h1>Our Courses</h1>
+    </section>
+
+    <!-- OUr courses -->
+    <section id="courses" class="py-1">
+        <div class="container ">
+            <div class="course-outline ">
+                <h1>Courses we Offer</h1>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Omnis ea culpa, aperiam fugiat sit voluptatem.
+                </p>
+            </div>
+
+            <div class="Showcase-course ">
+                <div class="main-course ">
+                    <h2>Intermediate</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolore quam aliquid incidunt neque assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="main-course ">
+                    <h2>Degree</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolore quam aliquid incidunt neque assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+                <div class="main-course ">
+                    <h2>Post Graduation</h2>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima, dolore quam aliquid incidunt neque assumenda?Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    </p>
+                </div>
+            </div>
+    </section>
+
+    <!-- Facilties -->
+    <section id="facilities" class="py-1">
+        <div class="facility-outline">
+            <h1>Our Facilities</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Error, laborum!</p>
+        </div>
+
+        <div class="showcase-facility ">
+            <div class="facility-col ">
+                <img src="./Images/library.png ">
+                <h3>World Class Library</h3>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="facility-col ">
+                <img src="./Images/basketball.png ">
+                <h3>Largest Play Ground</h3>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+            <div class="facility-col ">
+                <img src="./Images/cafeteria.png ">
+                <h3>Tasty and Healthy Food</h3>
+                <p>Lorem ipsum dolor sit amet consectetur </p>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- FOOTER -->
+    <section id="footer" class="py-top">
+        <h1>About Us</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga corrupti, <br />eaque porro neque ducimus nostrum rerum eius. Amet cum cupiditate eum quidem esse.
+        </p>
+        <div class="icon">
+            <div class="icon-btn"><i class="fa fa-facebook"></i></div>
+            <div class="icon-btn"><i class="fa fa-instagram"></i></div>
+            <div class="icon-btn"><i class="fa fa-twitter"></i></div>
+            <div class="icon-btn"><i class="fa fa-linkedin"></i></div>
+        </div>
+        <div class="ending">
+            <p>Copyrights &copy;2021 Made with <i class="fa fa-heart"></i>by Saad Rehman</p>
+        </div>
+    </section>
+    <!-- JS FOR MENU TOGGLE -->
+    <script>
+        var check = document.getElementById("NavvLinks");
+        var hanmburger = document.getElementById("kk");
+        var falto = document.getElementById("kk");
+
+        function ShowMenu() {
+            check.style.right = "0";
+            hanmburger.style.display = "none";
+        }
+
+        function HideMenu() {
+            check.style.right = "-200px";
+            hanmburger.style.display = "block";
+        }
+    </script>
+</body>
+
+</html>
